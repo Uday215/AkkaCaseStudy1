@@ -9,7 +9,7 @@ object ListFunctional {
   
 
       
-      
+      val a="Hello World"                         //> a  : String = Hello World
   //x.map{ ele=> y.map(el=>fun(ele,el))}
   
   

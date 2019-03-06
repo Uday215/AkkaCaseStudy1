@@ -5,11 +5,11 @@ object ListFunctional {;import org.scalaide.worksheet.runtime.library.WorksheetS
   
   
   val x:List[Int]=List(1,2,3,4,5);System.out.println("""x  : List[Int] = """ + $show(x ));$skip(35); 
-  val y:List[Int]=List(6,7,8,9,10);System.out.println("""y  : List[Int] = """ + $show(y ));$skip(114); 
+  val y:List[Int]=List(6,7,8,9,10);System.out.println("""y  : List[Int] = """ + $show(y ));$skip(37); 
   
 
       
-      
+      val a="Hello World";System.out.println("""a  : String = """ + $show(a ));$skip(96); 
   //x.map{ ele=> y.map(el=>fun(ele,el))}
   
   
